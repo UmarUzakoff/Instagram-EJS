@@ -1,0 +1,106 @@
+[
+  {
+    "id": "5eb224c0-193c-4510-8cba-5d31285f0835",
+    "image": "055fc001-c4d6-44a0-88da-c0a2924a93f8.jpeg",
+    "name": "Confidence",
+    "description": "key for the success!!!!!",
+    "hashtag":"#uzakoff",
+    "user_id": "4ef7a76f-d059-4f1c-84ff-4de385970bd3"
+  },
+  {
+    "id": "982127da-334c-4d41-95ad-28c8e80acfa4",
+    "image": "532ab373-3dd6-419a-b3c4-5ea537472b72.jpeg",
+    "name": "Museum",
+    "description": "Beauty of art...",
+    "hashtag":"#art",
+    "user_id": "4ef7a76f-d059-4f1c-84ff-4de385970bd3"
+  },
+  {
+    "id": "6d6460d3-d3ab-4ad0-aa29-50ea763c2d74",
+    "image": "4be833ce-53ef-4be4-b0c6-2106282935f2.jpeg",
+    "name": "Umarbek Uzoqov",
+    "description": "Yeah,It's me🤫😉",
+    "hashtag":"#uzakoff",
+    "user_id": "4ef7a76f-d059-4f1c-84ff-4de385970bd3"
+  },
+  {
+    "id": "86072341-a9c2-42c6-a7e8-fdf14d63c346",
+    "image": "edff6c89-4b92-41f0-9b42-372e86ac2c94.svg",
+    "name": "Guess the country",
+    "description": "England or USA?",
+    "hashtag":"#flags",
+    "user_id": "9d28afa5-74c1-4fc1-8624-83ece5708d01"
+  },
+  {
+    "id": "b065d9a4-6094-47ea-8759-8addd9e7cda9",
+    "image": "cd029434-1c10-4860-9440-35158cf7385b.svg",
+    "name": "Uzbekistan",
+    "description": "Hometown...",
+    "hashtag":"#flags",
+    "user_id": "9d28afa5-74c1-4fc1-8624-83ece5708d01"
+  },
+  {
+    "id": "4828f6f1-fed5-4505-974c-e87a43765439",
+    "image": "3781c82b-16fb-432d-9499-0e87d315dbdb.svg",
+    "name": "Russia",
+    "description": "How manny of you guys know Russian?",
+    "hashtag":"#flags",
+    "user_id": "9d28afa5-74c1-4fc1-8624-83ece5708d01"
+  },
+  {
+    "id": "d6c33db0-958a-4851-9bf9-94129d66681b",
+    "image": "41d55dcc-71b3-47d0-80ce-69780e2ce6e7.png",
+    "name": "React",
+    "description": "I think React is better than Vue, i don't know though",
+    "hashtag":"#programming",
+    "user_id": "1174aebc-9d50-4022-8ddf-255eba7e72a8"
+  },
+  {
+    "id": "1a22eaa8-d602-4ab6-8d51-bf039f62fd7b",
+    "image": "078fa846-952e-4549-9b47-35d7a402970d.jpeg",
+    "name": "Books",
+    "description": "Are you a bookwarm person?",
+    "hashtag":"#books",
+    "user_id": "1174aebc-9d50-4022-8ddf-255eba7e72a8"
+  },
+  {
+    "id": "1858adab-2009-420d-9a9f-9975ccece4ce",
+    "image": "1608a7e0-67d9-428f-85dd-54c016ca772f.png",
+    "name": "Library",
+    "description": "one of the most peaceful places in the world.",
+    "hashtag":"#books",
+    "user_id": "1174aebc-9d50-4022-8ddf-255eba7e72a8"
+  },
+  {
+    "id": "b1aa6829-8b3e-426e-b4e1-b78aa1cd1958",
+    "image": "d6eab21d-c128-4b19-9c10-2593c737c7b5.png",
+    "name": "Management",
+    "description": "one of the aspects of a leader!",
+    "hashtag":"#business",
+    "user_id": "a26ca618-e221-4f7a-bb09-393728b430f0"
+  },
+  {
+    "id": "71b5a059-0ca6-4ec1-a03f-1f674c0c9be4",
+    "image": "f516a906-7478-4155-9766-a2eefa6c260c.png",
+    "name": "Customer-Support",
+    "description": "Customer is always right!!",
+    "hashtag":"#business",
+    "user_id": "a26ca618-e221-4f7a-bb09-393728b430f0"
+  },
+  {
+    "id": "8639342b-2888-4ea5-8f63-d4149535f8f5",
+    "image": "ceaab32a-a9f0-49c5-bebe-f6032f99a9e3.png",
+    "name": "Collaboration",
+    "description": "Is there any candidates?!",
+    "hashtag":"#business",
+    "user_id": "a26ca618-e221-4f7a-bb09-393728b430f0"
+  },
+  {
+    "id": "a610dbbc-ff27-4eb7-9dc9-b3e09f3b1afe",
+    "image": "0739ff7e-05e1-476e-a224-717b4cc80e4c.svg",
+    "name": "logo",
+    "description": "Best Logo",
+    "hashtag":"#art",
+    "user_id": "299f1571-15bd-4abc-b6a6-be37e9a83b02"
+  }
+]
