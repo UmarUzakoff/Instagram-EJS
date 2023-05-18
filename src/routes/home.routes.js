@@ -4,9 +4,9 @@ const tokenMiddleware = require("../middlewares/token.middleware");
 const router = Router();
 router.use(tokenMiddleware);
 
-router.get("/home", home);
-router.post("/home/postsOfUser", seeOtherPeoplePosts);
-router.get("/home/allPosts", allPosts);
-router.get("/home/logout", logout);
+router.get("/", home);
+router.post("/postsOfUser", seeOtherPeoplePosts);
+router.get("/allPosts", allPosts);
+router.get("/logout", logout);
 
 module.exports = router;

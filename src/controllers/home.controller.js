@@ -56,5 +56,5 @@ exports.allPosts = async (req, res) => {
 
 exports.logout = async (req, res) => {
   res.clearCookie("token");
-  res.redirect('/api/auth/login');
+  res.redirect('/auth/login');
 }

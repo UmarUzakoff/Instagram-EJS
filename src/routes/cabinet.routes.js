@@ -4,9 +4,9 @@ const tokenMiddleware = require("../middlewares/token.middleware");
 const router = Router();
 router.use(tokenMiddleware);
 
-router.get("/home/cabinet", cabinet);
-router.post("/home/cabinet/deletePost", deletePost);
-router.post("/home/cabinet/postForEditing", postForEditing);
-router.post("/home/cabinet/postForEditing/editPost", editPost);
+router.get("/cabinet", cabinet);
+router.post("/cabinet/deletePost", deletePost);
+router.post("/cabinet/postForEditing", postForEditing);
+router.post("/cabinet/postForEditing/editPost", editPost);
 
 module.exports = router;

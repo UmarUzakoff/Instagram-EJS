@@ -148,18 +148,18 @@
   </style>
   <body>
     <header>
-      <h2><a href="http://localhost:7777/api/home/allPosts">All Posts</a></h2>
+      <h2><a href="http://localhost:7777/allPosts">All Posts</a></h2>
       <h1>Instagram</h1>
       <div>
-        <h2><a href="http://localhost:7777/api/home/cabinet">Cabinet</a></h2>
-        <form action="http://localhost:7777/api/home/logout" method="get">
+        <h2><a href="http://localhost:7777/cabinet">Cabinet</a></h2>
+        <form action="http://localhost:7777/logout" method="get">
           <button type="submit" class="logout">&nbsp;<i class="gg-log-out"></i>&nbsp; &nbsp; Log Out &nbsp;</button>
         </form>
       </div>
     </header>
     <div class="containerOfUsers">
       <%users.forEach(el => { %>
-      <form action="/api/home/postsOfUser" method="post">
+      <form action="/postsOfUser" method="post">
         <input type="hidden" name="id" value="<%= el.id %>" />
         <button class="button" type="submit"></button>
         <span><%= el.username%></span>

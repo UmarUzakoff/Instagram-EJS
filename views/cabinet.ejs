@@ -272,13 +272,13 @@
   <body>
     <header>
       <h2>
-        <a href="http://localhost:7777/api/home"
+        <a href="http://localhost:7777/"
           ><i class="fa-solid fa-arrow-left fa-xl" style="color: #d81390"></i
         ></a>
       </h2>
       <h1>Instagram</h1>
       <h2>
-        <a href="http://localhost:7777/api/home/cabinet/createPost"
+        <a href="http://localhost:7777/cabinet/createPost"
           ><i
             class="fa-brands fa-plus"
             style="color: #f09433; font-size: small">
@@ -298,11 +298,11 @@
             <h3><%= nameOfVerifiedUser%><br /><span>Author</span></h3>
           </div>
           <div class="dot">
-              <form action="/api/home/cabinet/postForEditing" method="post">
+              <form action="/cabinet/postForEditing" method="post">
                 <input type="hidden" name="id" value="<%= el.id%>" />
                 <button class="delete" type="submit"><i class="fa-solid fa-edit fa-lg" style="color: #720333;">&nbsp;Edit</i></button>
               </form>
-              <form action="/api/home/cabinet/deletePost" method="post">
+              <form action="/cabinet/deletePost" method="post">
                 <input type="hidden" name="id" value="<%= el.id%>" />
                 <button class="delete" type="submit"><i class="fa-solid fa-trash fa-lg" style="color: #720333;">&nbsp;Delete</i></button>
               </form>

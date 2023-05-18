@@ -4,7 +4,7 @@ const tokenMiddleware = require("../middlewares/token.middleware");
 const router = Router();
 router.use(tokenMiddleware);
 
-router.get("/home/cabinet/createPost", createPostPage);
-router.post("/home/cabinet/createPost", createPost);
+router.get("/cabinet/createPost", createPostPage);
+router.post("/cabinet/createPost", createPost);
 
 module.exports = router;

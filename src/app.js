@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/uploads", express.static(process.cwd() + "/uploads"));
 app.use(fileUpload());
 app.set("view engine", "ejs");
-app.use("/api", routes);
+app.use(routes);
 
 app.all("/*", async (req, res) => {
   return res.status(404).json({ message: "Route Not Found" });

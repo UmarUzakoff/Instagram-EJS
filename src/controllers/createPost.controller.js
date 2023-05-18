@@ -25,7 +25,7 @@ exports.createPost = async (req, res) => {
     const newPost = new Post(id, imageName, name, description, hashtag, user_id);
     const data = posts.length ? [...posts, newPost] : [newPost];
     Posts.write(data);
-    res.status(201).redirect("/api/home/cabinet");
+    res.status(201).redirect("/cabinet");
   } catch (error) {
     res.status(500).json({ message: error.message });
   }

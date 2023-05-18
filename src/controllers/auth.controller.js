@@ -13,16 +13,16 @@ exports.login = async (req, res) => {
     //Finding a username and Comparing Hash Values
     const findUser = users.find((user) => user.username === username);
     if (!findUser) {
-      return res.redirect("/api/auth/login");
+      return res.redirect("/auth/login");
     }
     const comparePasswords = await bcrypt.compare(password, findUser.password);
     if (!comparePasswords) {
-      return res.redirect("/api/auth/login");
+      return res.redirect("/auth/login");
     }
     //TOKEN
     const token = jwt.sign({ id: findUser.id });
     res.cookie("token", token, { maxAge: 3000000000, secure: true });
-    res.status(200).redirect("/api/home");
+    res.status(200).redirect("/");
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
@@ -36,7 +36,7 @@ exports.register = async (req, res) => {
     //FINDUSER
     const findUser = users.find((user) => user.username === username);
     if (findUser) {
-      return res.redirect("/api/auth/register");
+      return res.redirect("/auth/register");
     }
 
     //HASHING PASSWORD
@@ -53,7 +53,7 @@ exports.register = async (req, res) => {
     //TOKEN
     const token = jwt.sign({ id: newUser.id });
     res.cookie("token", token, { maxAge: 3000000000 , secure: true });
-    res.status(201).redirect("/api/home");
+    res.status(201).redirect("/");
   } catch (error) {
     res.status(500).json({ message: error.message });
   }

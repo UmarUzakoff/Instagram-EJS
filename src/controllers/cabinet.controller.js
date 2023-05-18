@@ -29,7 +29,7 @@ exports.deletePost = async (req, res) => {
   console.log(id);
   const restOfPosts = posts.filter((post) => post.id != id);
   Posts.write(restOfPosts);
-  res.status(200).redirect("/api/home/cabinet");
+  res.status(200).redirect("/cabinet");
 };
 
 exports.postForEditing = async (req, res) => {
@@ -60,5 +60,5 @@ exports.editPost = async (req, res) => {
     }
   });
   Posts.write(posts);
-  res.status(200).redirect("/api/home/cabinet");
+  res.status(200).redirect("/cabinet");
 };
